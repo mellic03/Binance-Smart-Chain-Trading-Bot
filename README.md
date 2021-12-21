@@ -18,7 +18,7 @@ pip install -r dependencies/requirements.txt
 ```
 
 ## Configuration (Universal)
-1. Create an account and generate API keys for both [bscscan](https://bscscan.com/) and [Moralis](https://moralis.io/).
+1. Create an account and generate API keys for both [BscScan](https://bscscan.com/) and [Moralis](https://moralis.io/).
 2. Open config.py and enter the token you wish to trade as well as your wallet public/private keys, stop loss/limit and API keys.
 3. Run main.py.
 
