@@ -78,23 +78,22 @@ def autoMode():
 def buyMode():
     # user inputs amount of token to buy in BNB
     purchaseAmount = input("Amount to purchase (BNB): ")
-
     # purchase token
     tran.buyToken(config.TARGET_TOKEN, purchaseAmount)
-
+    main()
 
 def sellMode():
     # get the account balance of the current token
     TOKEN_BALANCE = rinfo.getAccountBalanceInToken(config.TARGET_TOKEN, config.USER_PUBLIC_KEY, config.USER_API_KEY)
     # sell that amount
     tran.sellToken(config.TARGET_TOKEN, TOKEN_BALANCE)
-
+    main()
 
 def balanceMode():
     # get the account balance of the current token
     print("Retrieving account balance ")
     TOKEN_BALANCE = rinfo.getAccountBalanceInBNB(config.USER_PUBLIC_KEY, config.USER_API_KEY)
-    print(str(TOKEN_BALANCE * (10**-18)) + " BNB")
-
+    print(str(TOKEN_BALANCE * (10**-18)) + " BNB\n")
+    main()
 
 main()
