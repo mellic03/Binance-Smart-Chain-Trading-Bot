@@ -24,7 +24,7 @@ pip install -r dependencies/requirements.txt
 
 ## Usage
 
-```basg
+```bash
 auto
 # Asks for a BNB amount of the specified token to purchase, the program then monitors the tokens change in price and sells at your stop loss/limit.
 
