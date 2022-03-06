@@ -2,19 +2,11 @@
 
 This is a python bot which uses web3 to interact with the Binance Smart Chain.
 
-
-
-## Install dependencies (Windows)
-
-Run install_dependencies.bat for easy installation of dependencies. Alternatively, you could download/install all dependencies yourself.
-
-
-
-## Install dependencies (Linux)
-Assuming python and pip are already installed, use [pip](https://pip.pypa.io/en/stable/) to install dependencies/requirements.txt.
+## Install dependencies
+Assuming python and pip are already installed, use [pip](https://pip.pypa.io/en/stable/) to install requirements.txt.
 
 ```bash
-pip install -r dependencies/requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Configuration (Universal)
